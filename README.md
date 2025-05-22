@@ -6,6 +6,17 @@ Multiple recommender systems and architectures are developed and evaluted on the
 
 ## Methodology
 
+### Testset split
+
+There are some deviations on average between the different distributions
+Wasserstein Distance between train and hot_user_hot_item: **0.148**<br>
+Wasserstein Distance between train and hot_user_cold_item: 0.062<br>
+Wasserstein Distance between train and cold_user_hot_item: 0.044<br>
+Wasserstein Distance between train and cold_user_cold_item: **0.181**
+
+![Unbenannt](https://github.com/user-attachments/assets/2ee079ab-0c00-4548-a27b-dbc5d337d79e)
+
+
 ## Results
 
 ## Discussion
