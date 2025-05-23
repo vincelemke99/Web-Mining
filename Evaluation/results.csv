@@ -1,141 +1,276 @@
-Model,Testset,Metric Type,Metric,Value
-content-based,"hot user, hot wine",regression,mse,0.6321730796336905
-content-based,"hot user, cold wine",regression,mse,0.46955660239447566
-content-based,"cold user, hot wine",regression,mse,1.1531727317038551
-content-based,"cold user, cold wine",regression,mse,0.6756556705869731
-content-based,"hot user, hot wine",regression,rmse,0.7950931263906703
-content-based,"hot user, cold wine",regression,rmse,0.6852420027949802
-content-based,"cold user, hot wine",regression,rmse,1.073858804361102
-content-based,"cold user, cold wine",regression,rmse,0.8219827678163169
-content-based,"hot user, hot wine",regression,mae,0.5382790806803346
-content-based,"hot user, cold wine",regression,mae,0.5061781951697287
-content-based,"cold user, hot wine",regression,mae,0.6957715817837281
-content-based,"cold user, cold wine",regression,mae,0.6163639269280465
-content-based,"hot user, hot wine",top-k,precision,0.8789523485537284
-content-based,"hot user, cold wine",top-k,precision,0.8389176679964303
-content-based,"cold user, hot wine",top-k,precision,0.8085295286977526
-content-based,"cold user, cold wine",top-k,precision,0.7088704753045993
-content-based,"hot user, hot wine",top-k,recall,0.9216984470239878
-content-based,"hot user, cold wine",top-k,recall,0.8604841920594383
-content-based,"cold user, hot wine",top-k,recall,0.9150244328997401
-content-based,"cold user, cold wine",top-k,recall,0.7210152149358846
-content-based,"hot user, hot wine",top-k,hitrate,0.9525720634209779
-content-based,"hot user, cold wine",top-k,hitrate,0.8605070503804682
-content-based,"cold user, hot wine",top-k,hitrate,0.9928097814105716
-content-based,"cold user, cold wine",top-k,hitrate,0.7210152149358846
-content-based,"hot user, hot wine",top-k,ndcg,0.9241077074121032
-content-based,"hot user, cold wine",top-k,ndcg,0.8515259897595638
-content-based,"cold user, hot wine",top-k,ndcg,0.9135411619661427
-content-based,"cold user, cold wine",top-k,ndcg,0.7158574731863965
-svd,"hot user, hot wine",regression,mse,0.3198472927282139
-svd,"hot user, cold wine",regression,mse,0.41533766974870867
-svd,"cold user, hot wine",regression,mse,0.44334311057386555
-svd,"cold user, cold wine",regression,mse,0.5983717312186697
-svd,"hot user, hot wine",regression,rmse,0.5655504334082098
-svd,"hot user, cold wine",regression,rmse,0.644466965599253
-svd,"cold user, hot wine",regression,rmse,0.6658401539212437
-svd,"cold user, cold wine",regression,rmse,0.7735449122182045
-svd,"hot user, hot wine",regression,mae,0.412036745658953
-svd,"hot user, cold wine",regression,mae,0.47336789039746074
-svd,"cold user, hot wine",regression,mae,0.49323154327054913
-svd,"cold user, cold wine",regression,mae,0.574148821209833
-svd,"hot user, hot wine",top-k,precision,0.8819479218314833
-svd,"hot user, cold wine",top-k,precision,0.8389176679964303
-svd,"cold user, hot wine",top-k,precision,0.8192317620746118
-svd,"cold user, cold wine",top-k,precision,0.7088704753045993
-svd,"hot user, hot wine",top-k,recall,0.9237764746145515
-svd,"hot user, cold wine",top-k,recall,0.8604841920594383
-svd,"cold user, hot wine",top-k,recall,0.9233214811172178
-svd,"cold user, cold wine",top-k,recall,0.7210152149358846
-svd,"hot user, hot wine",top-k,hitrate,0.9525935941711953
-svd,"hot user, cold wine",top-k,hitrate,0.8605070503804682
-svd,"cold user, hot wine",top-k,hitrate,0.992928487849548
-svd,"cold user, cold wine",top-k,hitrate,0.7210152149358846
-svd,"hot user, hot wine",top-k,ndcg,0.9361956386605192
-svd,"hot user, cold wine",top-k,ndcg,0.8515259897595638
-svd,"cold user, hot wine",top-k,ndcg,0.9489091236820376
-svd,"cold user, cold wine",top-k,ndcg,0.7158574731863965
-hybrid-lgbm,"hot user, hot wine",regression,mse,0.3818455930547664
-hybrid-lgbm,"hot user, cold wine",regression,mse,0.44358377914967995
-hybrid-lgbm,"cold user, hot wine",regression,mse,0.4804204928024151
-hybrid-lgbm,"cold user, cold wine",regression,mse,0.586406957969088
-hybrid-lgbm,"hot user, hot wine",regression,rmse,0.6179365607040632
-hybrid-lgbm,"hot user, cold wine",regression,rmse,0.6660208548909561
-hybrid-lgbm,"cold user, hot wine",regression,rmse,0.693123721136721
-hybrid-lgbm,"cold user, cold wine",regression,rmse,0.765772131883296
-hybrid-lgbm,"hot user, hot wine",regression,mae,0.4560705276196872
-hybrid-lgbm,"hot user, cold wine",regression,mae,0.5046384269412123
-hybrid-lgbm,"cold user, hot wine",regression,mae,0.5139092970457246
-hybrid-lgbm,"cold user, cold wine",regression,mae,0.586046838512428
-hybrid-lgbm,"hot user, hot wine",top-k,precision,0.8815330242747931
-hybrid-lgbm,"hot user, cold wine",top-k,precision,0.8389248806618709
-hybrid-lgbm,"cold user, hot wine",top-k,precision,0.8181752747677217
-hybrid-lgbm,"cold user, cold wine",top-k,precision,0.7088704753045993
-hybrid-lgbm,"hot user, hot wine",top-k,recall,0.923457781217395
-hybrid-lgbm,"hot user, cold wine",top-k,recall,0.86049648637553
-hybrid-lgbm,"cold user, hot wine",top-k,recall,0.9225500915511112
-hybrid-lgbm,"cold user, cold wine",top-k,recall,0.7210152149358846
-hybrid-lgbm,"hot user, hot wine",top-k,hitrate,0.95258713494613
-hybrid-lgbm,"hot user, cold wine",top-k,hitrate,0.8605070503804682
-hybrid-lgbm,"cold user, hot wine",top-k,hitrate,0.992945445912259
-hybrid-lgbm,"cold user, cold wine",top-k,hitrate,0.7210152149358846
-hybrid-lgbm,"hot user, hot wine",top-k,ndcg,0.9346361774983615
-hybrid-lgbm,"hot user, cold wine",top-k,ndcg,0.8537046513033731
-hybrid-lgbm,"cold user, hot wine",top-k,ndcg,0.9452002812053337
-hybrid-lgbm,"cold user, cold wine",top-k,ndcg,0.7177898914051412
-hybrid-xgb,"hot user, hot wine",regression,mse,0.3757099864993814
-hybrid-xgb,"hot user, cold wine",regression,mse,0.466825881825354
-hybrid-xgb,"cold user, hot wine",regression,mse,0.4777507924021582
-hybrid-xgb,"cold user, cold wine",regression,mse,0.6820780942822563
-hybrid-xgb,"hot user, hot wine",regression,rmse,0.6129518631176362
-hybrid-xgb,"hot user, cold wine",regression,rmse,0.683246574689807
-hybrid-xgb,"cold user, hot wine",regression,rmse,0.6911951912464077
-hybrid-xgb,"cold user, cold wine",regression,rmse,0.8258801936614392
-hybrid-xgb,"hot user, hot wine",regression,mae,0.4513297713798951
-hybrid-xgb,"hot user, cold wine",regression,mae,0.49532996630471565
-hybrid-xgb,"cold user, hot wine",regression,mae,0.5134225345412391
-hybrid-xgb,"cold user, cold wine",regression,mae,0.6107693234609791
-hybrid-xgb,"hot user, hot wine",top-k,precision,0.8817224948767066
-hybrid-xgb,"hot user, cold wine",top-k,precision,0.8389212743291505
-hybrid-xgb,"cold user, hot wine",top-k,precision,0.8185619185975305
-hybrid-xgb,"cold user, cold wine",top-k,precision,0.7088704753045993
-hybrid-xgb,"hot user, hot wine",top-k,recall,0.9236026286687404
-hybrid-xgb,"hot user, cold wine",top-k,recall,0.860488199095794
-hybrid-xgb,"cold user, hot wine",top-k,recall,0.9228613404003218
-hybrid-xgb,"cold user, cold wine",top-k,recall,0.7210152149358846
-hybrid-xgb,"hot user, hot wine",top-k,hitrate,0.9525914410961736
-hybrid-xgb,"hot user, cold wine",top-k,hitrate,0.8605070503804682
-hybrid-xgb,"cold user, hot wine",top-k,hitrate,0.992945445912259
-hybrid-xgb,"cold user, cold wine",top-k,hitrate,0.7210152149358846
-hybrid-xgb,"hot user, hot wine",top-k,ndcg,0.9352852061508389
-hybrid-xgb,"hot user, cold wine",top-k,ndcg,0.8533472383766874
-hybrid-xgb,"cold user, hot wine",top-k,ndcg,0.9464396323274911
-hybrid-xgb,"cold user, cold wine",top-k,ndcg,0.71740582659973
-graph-sage,"hot user, hot wine",regression,mse,0.4230487274872956
-graph-sage,"hot user, cold wine",regression,mse,0.6159486619131112
-graph-sage,"cold user, hot wine",regression,mse,1.0430490162017325
-graph-sage,"cold user, cold wine",regression,mse,0.9370534303954255
-graph-sage,"hot user, hot wine",regression,rmse,0.6504219611047091
-graph-sage,"hot user, cold wine",regression,rmse,0.7848239687427437
-graph-sage,"cold user, hot wine",regression,rmse,1.0212977118361386
-graph-sage,"cold user, cold wine",regression,rmse,0.9680152015311668
-graph-sage,"hot user, hot wine",regression,mae,0.4748882932872113
-graph-sage,"hot user, cold wine",regression,mae,0.6061864011732851
-graph-sage,"cold user, hot wine",regression,mae,0.8311884077882006
-graph-sage,"cold user, cold wine",regression,mae,0.7593629541565681
-graph-sage,"hot user, hot wine",top-k,precision,0.8816818017587957
-graph-sage,"hot user, cold wine",top-k,precision,0.8389212743291505
-graph-sage,"cold user, hot wine",top-k,precision,0.8144580674214891
-graph-sage,"cold user, cold wine",top-k,precision,0.7088704753045993
-graph-sage,"hot user, hot wine",top-k,recall,0.9235664833997985
-graph-sage,"hot user, cold wine",top-k,recall,0.8604932078912388
-graph-sage,"cold user, hot wine",top-k,recall,0.9195824965654132
-graph-sage,"cold user, cold wine",top-k,recall,0.7210152149358846
-graph-sage,"hot user, hot wine",top-k,hitrate,0.9525892880211518
-graph-sage,"hot user, cold wine",top-k,hitrate,0.8605070503804682
-graph-sage,"cold user, hot wine",top-k,hitrate,0.992945445912259
-graph-sage,"cold user, cold wine",top-k,hitrate,0.7210152149358846
-graph-sage,"hot user, hot wine",top-k,ndcg,0.9345902444978273
-graph-sage,"hot user, cold wine",top-k,ndcg,0.8523067124181296
-graph-sage,"cold user, hot wine",top-k,ndcg,0.9320621566435008
-graph-sage,"cold user, cold wine",top-k,ndcg,0.7166611134928546
+Model,Testset,Metric Type,Metric,Value,UserCount
+content-based,"hot user, hot wine",regression,mse,0.6321730796336905,464452
+content-based,"hot user, cold wine",regression,mse,0.46955660239447566,27729
+content-based,"cold user, hot wine",regression,mse,1.1531727317038551,58969
+content-based,"cold user, cold wine",regression,mse,0.6756556705869731,15051
+content-based,combined,regression,mse,0.7319576062070863,531276
+content-based,"hot user, hot wine",regression,rmse,0.7950931263906703,464452
+content-based,"hot user, cold wine",regression,rmse,0.6852420027949802,27729
+content-based,"cold user, hot wine",regression,rmse,1.073858804361102,58969
+content-based,"cold user, cold wine",regression,rmse,0.8219827678163169,15051
+content-based,combined,regression,rmse,0.8555452099141729,531276
+content-based,"hot user, hot wine",regression,mae,0.5382790806803346,464452
+content-based,"hot user, cold wine",regression,mae,0.5061781951697287,27729
+content-based,"cold user, hot wine",regression,mae,0.6957715817837281,58969
+content-based,"cold user, cold wine",regression,mae,0.6163639269280465,15051
+content-based,combined,regression,mae,0.5690887790415253,531276
+content-based,"hot user, hot wine",top-k,precision@5,0.8954294928879156,41549
+content-based,"hot user, cold wine",top-k,precision@5,0.8727272727272729,11
+content-based,"cold user, hot wine",top-k,precision@5,0.8201486486486487,14800
+content-based,"cold user, cold wine",top-k,precision@5,,0
+content-based,combined,top-k,precision@5,0.871667472876788,57884
+content-based,"hot user, hot wine",top-k,recall@5,0.33056986887675754,41549
+content-based,"hot user, cold wine",top-k,recall@5,0.5162993572084482,11
+content-based,"cold user, hot wine",top-k,recall@5,0.3442136502070988,14800
+content-based,"cold user, cold wine",top-k,recall@5,,0
+content-based,combined,top-k,recall@5,0.3328759683498534,57884
+content-based,"hot user, hot wine",top-k,hitrate@5,0.996750824327902,41549
+content-based,"hot user, cold wine",top-k,hitrate@5,1.0,11
+content-based,"cold user, hot wine",top-k,hitrate@5,0.9912837837837838,14800
+content-based,"cold user, cold wine",top-k,hitrate@5,,0
+content-based,combined,top-k,hitrate@5,0.9950418077534379,57884
+content-based,"hot user, hot wine",top-k,ndcg@5,0.9558371355763179,41549
+content-based,"hot user, cold wine",top-k,ndcg@5,0.9552835183378687,11
+content-based,"cold user, hot wine",top-k,ndcg@5,0.9165765672919544,14800
+content-based,"cold user, cold wine",top-k,ndcg@5,0.0,0
+content-based,combined,top-k,ndcg@5,0.941410956066357,57884
+content-based,"hot user, hot wine",top-k,precision@10,0.8881730005535634,41549
+content-based,"hot user, cold wine",top-k,precision@10,0.8363636363636364,11
+content-based,"cold user, hot wine",top-k,precision@10,0.8198175675675675,14800
+content-based,"cold user, cold wine",top-k,precision@10,,0
+content-based,combined,top-k,precision@10,0.8682312901665399,57884
+content-based,"hot user, hot wine",top-k,recall@10,0.6538950905481499,41549
+content-based,"hot user, cold wine",top-k,recall@10,0.942378328741965,11
+content-based,"cold user, hot wine",top-k,recall@10,0.688315931328701,14800
+content-based,"cold user, cold wine",top-k,recall@10,,0
+content-based,combined,top-k,recall@10,0.6619673758234446,57884
+content-based,"hot user, hot wine",top-k,hitrate@10,0.9990132133143999,41549
+content-based,"hot user, cold wine",top-k,hitrate@10,1.0,11
+content-based,"cold user, hot wine",top-k,hitrate@10,0.9982432432432432,14800
+content-based,"cold user, cold wine",top-k,hitrate@10,,0
+content-based,combined,top-k,hitrate@10,0.998825236680257,57884
+content-based,"hot user, hot wine",top-k,ndcg@10,0.9555987459629918,41549
+content-based,"hot user, cold wine",top-k,ndcg@10,0.9505496185110797,11
+content-based,"cold user, hot wine",top-k,ndcg@10,0.9195407345913958,14800
+content-based,"cold user, cold wine",top-k,ndcg@10,0.0,0
+content-based,combined,top-k,ndcg@10,0.943098313484365,57884
+svd,"hot user, hot wine",regression,mse,0.3198472927282139,464452
+svd,"hot user, cold wine",regression,mse,0.41533766974870867,27729
+svd,"cold user, hot wine",regression,mse,0.44334311057386555,58969
+svd,"cold user, cold wine",regression,mse,0.5983717312186697,15051
+svd,combined,regression,mse,0.3470363204460362,531276
+svd,"hot user, hot wine",regression,rmse,0.5655504334082098,464452
+svd,"hot user, cold wine",regression,rmse,0.644466965599253,27729
+svd,"cold user, hot wine",regression,rmse,0.6658401539212437,58969
+svd,"cold user, cold wine",regression,rmse,0.7735449122182045,15051
+svd,combined,regression,rmse,0.5890978869814729,531276
+svd,"hot user, hot wine",regression,mae,0.412036745658953,464452
+svd,"hot user, cold wine",regression,mae,0.47336789039746074,27729
+svd,"cold user, hot wine",regression,mae,0.49323154327054913,58969
+svd,"cold user, cold wine",regression,mae,0.574148821209833,15051
+svd,combined,regression,mae,0.42975930575720495,531276
+svd,"hot user, hot wine",top-k,precision@5,0.9481335290861392,41549
+svd,"hot user, cold wine",top-k,precision@5,0.8727272727272729,11
+svd,"cold user, hot wine",top-k,precision@5,0.9050135135135134,14800
+svd,"cold user, cold wine",top-k,precision@5,,0
+svd,combined,top-k,precision@5,0.9352670858959298,57884
+svd,"hot user, hot wine",top-k,recall@5,0.3548164395436117,41549
+svd,"hot user, cold wine",top-k,recall@5,0.5162993572084482,11
+svd,"cold user, hot wine",top-k,recall@5,0.38828614481709106,14800
+svd,"cold user, cold wine",top-k,recall@5,,0
+svd,combined,top-k,recall@5,0.36295128548140276,57884
+svd,"hot user, hot wine",top-k,hitrate@5,0.9985799898914535,41549
+svd,"hot user, cold wine",top-k,hitrate@5,1.0,11
+svd,"cold user, hot wine",top-k,hitrate@5,0.9972972972972973,14800
+svd,"cold user, cold wine",top-k,hitrate@5,,0
+svd,combined,top-k,hitrate@5,0.9981514753645222,57884
+svd,"hot user, hot wine",top-k,ndcg@5,0.9836348485807596,41549
+svd,"hot user, cold wine",top-k,ndcg@5,0.9552835183378687,11
+svd,"cold user, hot wine",top-k,ndcg@5,0.9675668685108648,14800
+svd,"cold user, cold wine",top-k,ndcg@5,0.0,0
+svd,combined,top-k,ndcg@5,0.9789720310060906,57884
+svd,"hot user, hot wine",top-k,precision@10,0.9216587643505258,41549
+svd,"hot user, cold wine",top-k,precision@10,0.8363636363636364,11
+svd,"cold user, hot wine",top-k,precision@10,0.8624594594594596,14800
+svd,"cold user, cold wine",top-k,precision@10,,0
+svd,combined,top-k,precision@10,0.9046420427061018,57884
+svd,"hot user, hot wine",top-k,recall@10,0.677124147095659,41549
+svd,"hot user, cold wine",top-k,recall@10,0.942378328741965,11
+svd,"cold user, hot wine",top-k,recall@10,0.7213746229730552,14800
+svd,"cold user, cold wine",top-k,recall@10,,0
+svd,combined,top-k,recall@10,0.6877769541152264,57884
+svd,"hot user, hot wine",top-k,hitrate@10,0.9992538929938145,41549
+svd,"hot user, cold wine",top-k,hitrate@10,1.0,11
+svd,"cold user, hot wine",top-k,hitrate@10,0.9987162162162162,14800
+svd,"cold user, cold wine",top-k,hitrate@10,,0
+svd,combined,top-k,hitrate@10,0.9991189275101928,57884
+svd,"hot user, hot wine",top-k,ndcg@10,0.9807468159959389,41549
+svd,"hot user, cold wine",top-k,ndcg@10,0.9505496185110797,11
+svd,"cold user, hot wine",top-k,ndcg@10,0.9631464298632528,14800
+svd,"cold user, cold wine",top-k,ndcg@10,0.0,0
+svd,combined,top-k,ndcg@10,0.9755806165394305,57884
+hybrid-lgbm,"hot user, hot wine",regression,mse,0.3818455930547664,464452
+hybrid-lgbm,"hot user, cold wine",regression,mse,0.44358377914967995,27729
+hybrid-lgbm,"cold user, hot wine",regression,mse,0.4804204928024151,58969
+hybrid-lgbm,"cold user, cold wine",regression,mse,0.586406957969088,15051
+hybrid-lgbm,combined,regression,mse,0.40323723867306815,531276
+hybrid-lgbm,"hot user, hot wine",regression,rmse,0.6179365607040632,464452
+hybrid-lgbm,"hot user, cold wine",regression,rmse,0.6660208548909561,27729
+hybrid-lgbm,"cold user, hot wine",regression,rmse,0.693123721136721,58969
+hybrid-lgbm,"cold user, cold wine",regression,rmse,0.765772131883296,15051
+hybrid-lgbm,combined,regression,rmse,0.6350096366773249,531276
+hybrid-lgbm,"hot user, hot wine",regression,mae,0.4560705276196872,464452
+hybrid-lgbm,"hot user, cold wine",regression,mae,0.5046384269412123,27729
+hybrid-lgbm,"cold user, hot wine",regression,mae,0.5139092970457246,58969
+hybrid-lgbm,"cold user, cold wine",regression,mae,0.586046838512428,15051
+hybrid-lgbm,combined,regression,mae,0.4688539431653018,531276
+hybrid-lgbm,"hot user, hot wine",top-k,precision@5,0.9419817564803006,41549
+hybrid-lgbm,"hot user, cold wine",top-k,precision@5,0.9272727272727272,11
+hybrid-lgbm,"cold user, hot wine",top-k,precision@5,0.8956486486486487,14800
+hybrid-lgbm,"cold user, cold wine",top-k,precision@5,,0
+hybrid-lgbm,combined,top-k,precision@5,0.9290512058599959,57884
+hybrid-lgbm,"hot user, hot wine",top-k,recall@5,0.3518885549205713,41549
+hybrid-lgbm,"hot user, cold wine",top-k,recall@5,0.5397153351698806,11
+hybrid-lgbm,"cold user, hot wine",top-k,recall@5,0.38335850132058163,14800
+hybrid-lgbm,"cold user, cold wine",top-k,recall@5,,0
+hybrid-lgbm,combined,top-k,recall@5,0.3599838504183209,57884
+hybrid-lgbm,"hot user, hot wine",top-k,hitrate@5,0.9986281258273364,41549
+hybrid-lgbm,"hot user, cold wine",top-k,hitrate@5,1.0,11
+hybrid-lgbm,"cold user, hot wine",top-k,hitrate@5,0.9972297297297297,14800
+hybrid-lgbm,"cold user, cold wine",top-k,hitrate@5,,0
+hybrid-lgbm,combined,top-k,hitrate@5,0.998272406882731,57884
+hybrid-lgbm,"hot user, hot wine",top-k,ndcg@5,0.98098752235042,41549
+hybrid-lgbm,"hot user, cold wine",top-k,ndcg@5,0.9922154920922857,11
+hybrid-lgbm,"cold user, hot wine",top-k,ndcg@5,0.9640418543855429,14800
+hybrid-lgbm,"cold user, cold wine",top-k,ndcg@5,0.0,0
+hybrid-lgbm,combined,top-k,ndcg@5,0.9763209731549626,57884
+hybrid-lgbm,"hot user, hot wine",top-k,precision@10,0.9170208669282053,41549
+hybrid-lgbm,"hot user, cold wine",top-k,precision@10,0.8545454545454546,11
+hybrid-lgbm,"cold user, hot wine",top-k,precision@10,0.8582500000000002,14800
+hybrid-lgbm,"cold user, cold wine",top-k,precision@10,,0
+hybrid-lgbm,combined,top-k,precision@10,0.9006513026052104,57884
+hybrid-lgbm,"hot user, hot wine",top-k,recall@10,0.67356165977476,41549
+hybrid-lgbm,"hot user, cold wine",top-k,recall@10,0.9733700642791553,11
+hybrid-lgbm,"cold user, hot wine",top-k,recall@10,0.7183011046403699,14800
+hybrid-lgbm,"cold user, cold wine",top-k,recall@10,,0
+hybrid-lgbm,combined,top-k,recall@10,0.684708045779997,57884
+hybrid-lgbm,"hot user, hot wine",top-k,hitrate@10,0.9991816890899902,41549
+hybrid-lgbm,"hot user, cold wine",top-k,hitrate@10,1.0,11
+hybrid-lgbm,"cold user, hot wine",top-k,hitrate@10,0.9987837837837837,14800
+hybrid-lgbm,"cold user, cold wine",top-k,hitrate@10,,0
+hybrid-lgbm,combined,top-k,hitrate@10,0.9990670997166747,57884
+hybrid-lgbm,"hot user, hot wine",top-k,ndcg@10,0.9780827012588977,41549
+hybrid-lgbm,"hot user, cold wine",top-k,ndcg@10,0.9829776544658881,11
+hybrid-lgbm,"cold user, hot wine",top-k,ndcg@10,0.9595125678606304,14800
+hybrid-lgbm,"cold user, cold wine",top-k,ndcg@10,0.0,0
+hybrid-lgbm,combined,top-k,ndcg@10,0.9729197827471651,57884
+hybrid-xgb,"hot user, hot wine",regression,mse,0.3757099864993814,464452
+hybrid-xgb,"hot user, cold wine",regression,mse,0.466825881825354,27729
+hybrid-xgb,"cold user, hot wine",regression,mse,0.4777507924021582,58969
+hybrid-xgb,"cold user, cold wine",regression,mse,0.6820780942822563,15051
+hybrid-xgb,combined,regression,mse,0.39882703771075,531276
+hybrid-xgb,"hot user, hot wine",regression,rmse,0.6129518631176362,464452
+hybrid-xgb,"hot user, cold wine",regression,rmse,0.683246574689807,27729
+hybrid-xgb,"cold user, hot wine",regression,rmse,0.6911951912464077,58969
+hybrid-xgb,"cold user, cold wine",regression,rmse,0.8258801936614392,15051
+hybrid-xgb,combined,regression,rmse,0.6315275431133229,531276
+hybrid-xgb,"hot user, hot wine",regression,mae,0.4513297713798951,464452
+hybrid-xgb,"hot user, cold wine",regression,mae,0.49532996630471565,27729
+hybrid-xgb,"cold user, hot wine",regression,mae,0.5134225345412391,58969
+hybrid-xgb,"cold user, cold wine",regression,mae,0.6107693234609791,15051
+hybrid-xgb,combined,regression,mae,0.4650687625443357,531276
+hybrid-xgb,"hot user, hot wine",top-k,precision@5,0.9448410310717466,41549
+hybrid-xgb,"hot user, cold wine",top-k,precision@5,0.9090909090909091,11
+hybrid-xgb,"cold user, hot wine",top-k,precision@5,0.8982702702702704,14800
+hybrid-xgb,"cold user, cold wine",top-k,precision@5,,0
+hybrid-xgb,combined,top-k,precision@5,0.9299253679773342,57884
+hybrid-xgb,"hot user, hot wine",top-k,recall@5,0.3531361382298039,41549
+hybrid-xgb,"hot user, cold wine",top-k,recall@5,0.5270890725436179,11
+hybrid-xgb,"cold user, hot wine",top-k,recall@5,0.3847064226566584,14800
+hybrid-xgb,"cold user, cold wine",top-k,recall@5,,0
+hybrid-xgb,combined,top-k,recall@5,0.360459210579919,57884
+hybrid-xgb,"hot user, hot wine",top-k,hitrate@5,0.9985318539555705,41549
+hybrid-xgb,"hot user, cold wine",top-k,hitrate@5,1.0,11
+hybrid-xgb,"cold user, hot wine",top-k,hitrate@5,0.9971621621621621,14800
+hybrid-xgb,"cold user, cold wine",top-k,hitrate@5,,0
+hybrid-xgb,combined,top-k,hitrate@5,0.9982378550203856,57884
+hybrid-xgb,"hot user, hot wine",top-k,ndcg@5,0.9823948297700459,41549
+hybrid-xgb,"hot user, cold wine",top-k,ndcg@5,0.9873224384289845,11
+hybrid-xgb,"cold user, hot wine",top-k,ndcg@5,0.9652636438865325,14800
+hybrid-xgb,"cold user, cold wine",top-k,ndcg@5,0.0,0
+hybrid-xgb,combined,top-k,ndcg@5,0.9763178093960325,57884
+hybrid-xgb,"hot user, hot wine",top-k,precision@10,0.9191388481070544,41549
+hybrid-xgb,"hot user, cold wine",top-k,precision@10,0.8454545454545456,11
+hybrid-xgb,"cold user, hot wine",top-k,precision@10,0.8597905405405406,14800
+hybrid-xgb,"cold user, cold wine",top-k,precision@10,,0
+hybrid-xgb,combined,top-k,precision@10,0.9017206827448,57884
+hybrid-xgb,"hot user, hot wine",top-k,recall@10,0.6751808248201809,41549
+hybrid-xgb,"hot user, cold wine",top-k,recall@10,0.9524793388429752,11
+hybrid-xgb,"cold user, hot wine",top-k,recall@10,0.7195412420315257,14800
+hybrid-xgb,"cold user, cold wine",top-k,recall@10,,0
+hybrid-xgb,combined,top-k,recall@10,0.6857649088217801,57884
+hybrid-xgb,"hot user, hot wine",top-k,hitrate@10,0.9992298250258731,41549
+hybrid-xgb,"hot user, cold wine",top-k,hitrate@10,1.0,11
+hybrid-xgb,"cold user, hot wine",top-k,hitrate@10,0.9987837837837837,14800
+hybrid-xgb,"cold user, cold wine",top-k,hitrate@10,,0
+hybrid-xgb,combined,top-k,hitrate@10,0.9991189275101928,57884
+hybrid-xgb,"hot user, hot wine",top-k,ndcg@10,0.9794335135665044,41549
+hybrid-xgb,"hot user, cold wine",top-k,ndcg@10,0.9798760181999456,11
+hybrid-xgb,"cold user, hot wine",top-k,ndcg@10,0.9607503217289628,14800
+hybrid-xgb,"cold user, cold wine",top-k,ndcg@10,0.0,0
+hybrid-xgb,combined,top-k,ndcg@10,0.9731143058483419,57884
+graph-sage,"hot user, hot wine",regression,mse,0.4230487274872956,464452
+graph-sage,"hot user, cold wine",regression,mse,0.6159486619131112,27729
+graph-sage,"cold user, hot wine",regression,mse,1.0430490162017325,58969
+graph-sage,"cold user, cold wine",regression,mse,0.9370534303954255,15051
+graph-sage,combined,regression,mse,0.5500122857215705,531276
+graph-sage,"hot user, hot wine",regression,rmse,0.6504219611047091,464452
+graph-sage,"hot user, cold wine",regression,rmse,0.7848239687427437,27729
+graph-sage,"cold user, hot wine",regression,rmse,1.0212977118361386,58969
+graph-sage,"cold user, cold wine",regression,rmse,0.9680152015311668,15051
+graph-sage,combined,regression,rmse,0.741628131695104,531276
+graph-sage,"hot user, hot wine",regression,mae,0.4748882932872113,464452
+graph-sage,"hot user, cold wine",regression,mae,0.6061864011732851,27729
+graph-sage,"cold user, hot wine",regression,mae,0.8311884077882006,58969
+graph-sage,"cold user, cold wine",regression,mae,0.7593629541565681,15051
+graph-sage,combined,regression,mae,0.5480612437681129,531276
+graph-sage,"hot user, hot wine",top-k,precision@5,0.9436857686105561,41549
+graph-sage,"hot user, cold wine",top-k,precision@5,0.8909090909090908,11
+graph-sage,"cold user, hot wine",top-k,precision@5,0.8672297297297298,14800
+graph-sage,"cold user, cold wine",top-k,precision@5,,0
+graph-sage,combined,top-k,precision@5,0.922641835394928,57884
+graph-sage,"hot user, hot wine",top-k,recall@5,0.35248248270100685,41549
+graph-sage,"hot user, cold wine",top-k,recall@5,0.5068870523415977,11
+graph-sage,"cold user, hot wine",top-k,recall@5,0.3683387064674142,14800
+graph-sage,"cold user, cold wine",top-k,recall@5,,0
+graph-sage,combined,top-k,recall@5,0.3563371260634093,57884
+graph-sage,"hot user, hot wine",top-k,hitrate@5,0.9985799898914535,41549
+graph-sage,"hot user, cold wine",top-k,hitrate@5,1.0,11
+graph-sage,"cold user, hot wine",top-k,hitrate@5,0.994527027027027,14800
+graph-sage,"cold user, cold wine",top-k,hitrate@5,,0
+graph-sage,combined,top-k,hitrate@5,0.9974949899799599,57884
+graph-sage,"hot user, hot wine",top-k,ndcg@5,0.9811166505858306,41549
+graph-sage,"hot user, cold wine",top-k,ndcg@5,0.954776417165471,11
+graph-sage,"cold user, hot wine",top-k,ndcg@5,0.945603765127009,14800
+graph-sage,"cold user, cold wine",top-k,ndcg@5,0.0,0
+graph-sage,combined,top-k,ndcg@5,0.9714916473865932,57884
+graph-sage,"hot user, hot wine",top-k,precision@10,0.9186839635129607,41549
+graph-sage,"hot user, cold wine",top-k,precision@10,0.8454545454545456,11
+graph-sage,"cold user, hot wine",top-k,precision@10,0.8434391891891893,14800
+graph-sage,"cold user, cold wine",top-k,precision@10,,0
+graph-sage,combined,top-k,precision@10,0.897778315251192,57884
+graph-sage,"hot user, hot wine",top-k,recall@10,0.6747767779730717,41549
+graph-sage,"hot user, cold wine",top-k,recall@10,0.9651056014692379,11
+graph-sage,"cold user, hot wine",top-k,recall@10,0.706477043240936,14800
+graph-sage,"cold user, cold wine",top-k,recall@10,,0
+graph-sage,combined,top-k,recall@10,0.6822870136869176,57884
+graph-sage,"hot user, hot wine",top-k,hitrate@10,0.9992057570579316,41549
+graph-sage,"hot user, cold wine",top-k,hitrate@10,1.0,11
+graph-sage,"cold user, hot wine",top-k,hitrate@10,0.9987837837837837,14800
+graph-sage,"cold user, cold wine",top-k,hitrate@10,,0
+graph-sage,combined,top-k,hitrate@10,0.9991016515790201,57884
+graph-sage,"hot user, hot wine",top-k,ndcg@10,0.9784804844775841,41549
+graph-sage,"hot user, cold wine",top-k,ndcg@10,0.9489615776303316,11
+graph-sage,"cold user, hot wine",top-k,ndcg@10,0.9441506050606541,14800
+graph-sage,"cold user, cold wine",top-k,ndcg@10,0.0,0
+graph-sage,combined,top-k,ndcg@10,0.9691129584226297,57884
