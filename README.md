@@ -1,4 +1,4 @@
-# My Part is the Contend_Recommender System
+# My part is the content-based model.
 
 # Recommendation Systems on the X-Wines dataset
 This project was created as part of the Web Mining Project of the University of Mannheim, course on Web Mining (FSS 2025).
